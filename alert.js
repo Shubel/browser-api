@@ -20,6 +20,9 @@ const askPicnic = () => {
 const askName = () => {
     const name = prompt('What is your name?');
     if (name) {
-        console.log(name)
+        console.log(name);
+    }
+    else {
+        console.log('Write down your name');
     }
 }
